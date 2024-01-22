@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(197, 197, 197);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px;
+    padding: 100px 40px;
+
+
+}
+
+.container h1, .container div {
+    margin-bottom: 40px ;
+}
+
+.numbers {
+    font-size: 2rem;
+    color: rgb(43, 43, 43);
+    font-weight: bold;
+}
